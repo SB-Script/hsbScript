@@ -3,7 +3,6 @@
 while true; do
         xdotool mousedown 1
         xdotool keydown s; sleep 4; xdotool keyup s
-        xdotool keydown a; sleep 0.3; xdotool keyup a
     for i in {1..40}; do
         xdotool mouseup 1
         xdotool mousedown 1
